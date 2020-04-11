@@ -1,3 +1,7 @@
 .metadata
 target/
-
+.classpath
+.idea
+.settings
+.project
+*.iml
