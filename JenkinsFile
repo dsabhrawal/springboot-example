@@ -10,7 +10,7 @@ pipeline {
             steps {
                 git credentialsId: '3beae218-44b7-43de-8363-1011c7091610', url: 'https://github.com/dsabhrawal/springboot-example.git'
             }
-       */ }
+        }*/
         stage('compile') {
             agent any
             steps {
@@ -35,3 +35,4 @@ pipeline {
             }
         }
     }
+}
